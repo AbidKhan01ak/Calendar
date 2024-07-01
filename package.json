@@ -4,8 +4,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html  --dist-dir ./dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/index.html  --dist-dir ./dist"
   },
   "author": "Abid Khan",
   "license": "ISC",
