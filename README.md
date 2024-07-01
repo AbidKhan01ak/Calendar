@@ -15,6 +15,22 @@ The Calendar App allows users to input a year and displays a grid of months for 
 
 
 
+  ![Home Page](https://github.com/AbidKhan01ak/Calendar/blob/main/assets/Calendar1.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+  ![Output](https://github.com/AbidKhan01ak/Calendar/blob/main/assets/Calendar2.PNG)
+
+
 ## Installation
 
 1. Clone the repository
