@@ -13,9 +13,8 @@ function showCalendar() {
         return;
     }
 
-    // Force reflow to re-trigger the animation
     container.style.animation = 'none';
-    container.offsetHeight; // Trigger a reflow, flushing the CSS changes
+    container.offsetHeight;
     container.style.animation = null;
 
     for (let monthIndex = 0; monthIndex < 12; monthIndex++) {

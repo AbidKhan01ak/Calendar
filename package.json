@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "default": "index.html",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html  --dist-dir ./dist"
+    "start": "parcel index.html",
+    "build": "parcel build index.html  --dist-dir ./dist"
   },
   "author": "Abid Khan",
   "license": "ISC",
