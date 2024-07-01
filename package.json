@@ -1,0 +1,16 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html  --dist-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abid Khan",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

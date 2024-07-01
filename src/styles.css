@@ -1,0 +1,126 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(249, 245, 246, 1) 0%,
+    rgba(248, 232, 238, 1) 25%,
+    rgba(253, 206, 223, 1) 50%,
+    rgba(93, 235, 215, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-color: #7776b3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+header h1 {
+  margin: 0 0 20px 0;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+#year-input {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  height: 30px;
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #402e7a;
+  color: white;
+  font-family: "Raleway";
+  font-weight: 700;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e2bbe9;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.month {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #402e7a;
+  max-width: 450px;
+  color: white;
+  font-size: larger;
+  cursor: no-drop;
+}
+
+.month h3 {
+  margin: 5px 5px;
+  display: inline;
+}
+
+.weekdays,
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.weekdays li,
+.days li {
+  list-style-type: none;
+}
+
+.weekdays {
+  font-weight: bold;
+}
+
+.days li {
+  padding: 5px;
+  background-color: #31363f;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: #7776b3;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
