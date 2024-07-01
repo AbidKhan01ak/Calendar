@@ -9,7 +9,7 @@
   },
   "author": "Abid Khan",
   "license": "ISC",
-  "description": "",
+  "description": "A simple calendar application built with HTML, CSS, and JavaScript to display the calendar for any given year.",
   "devDependencies": {
     "parcel": "^2.12.0"
   }
